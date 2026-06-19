@@ -1,0 +1,55 @@
+body{
+    background-color: #f97443;
+}
+
+/* Class Selector */
+.head{
+    color: darkblue;
+}
+
+/* ID Selector */
+#bglime{
+    background-color: greenyellow;
+}
+
+#para {
+    color: darkgreen;
+}
+
+/* Element Selector */
+p{
+    color: white;
+}
+
+/* Universal Selector */
+*{
+    color: white;
+}
+
+/* Direct Child Selector */
+ol > li{
+    color: black;
+}
+
+li>a {
+    color: blue;
+}
+
+/* Descendant Selector */
+ol li:nth-child(2){
+    color: blue;
+}
+
+ol li:nth-child(3){
+    color: red;
+}
+
+ul li:nth-child(1) a{
+    color: blue;
+    background-color: yellowgreen;
+}
+
+ul li:nth-child(2) a{
+    background-color: purple;
+}
+
